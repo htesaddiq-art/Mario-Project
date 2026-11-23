@@ -8,3 +8,9 @@ The goal of this project is to create a solution to implement a the requirements
 3. Implement a boss fight at the end of the level. The boss should have different attacks and animations as well as sound effects.
 
 We have decided who is doing what. Prahalath is doing movement, Rishad is doing the boss and Tesadiq is doing Tile set. We decided this in person.
+
+# Movement
+
+# Tile set
+
+# Boss
