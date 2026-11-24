@@ -10,6 +10,7 @@ The goal of this project is to create a solution to implement a the requirements
 We have decided who is doing what. Prahalath is doing movement, Rishad is doing the boss and Tesadiq is doing Tile set. We decided this in person.
 
 # Movement
+Mario's movement
 
 # Tile set
 
