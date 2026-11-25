@@ -9,9 +9,12 @@ The goal of this project is to create a solution to implement a the requirements
 
 We have decided who is doing what. Prahalath is doing movement, Rishad is doing the boss and Tesadiq is doing Tile set. We decided this in person.
 
+To make the game as best as possible we have decided to focus on the boss battle. That allows us to fully implement the requirements to the best of out ability.
+
 # Movement
 Mario's movement
 
 # Tile set
+Using Piskel I was able to make a few different designs for the ground and platforms. I also made some designs for pipes and bricks, although I might not use all of them. There was a bit of trial and error when it came to making the pipes. I had to make sure it fit in the 32x32 scale that we chose as a group. I struggled with giving the illusion that the top of the pipe was thicker and open. A solution I found was to make the sides of the pipe in the pipe_base.png slimmer so that in the pipe_top.png I could use the new extra space to make the pipe thicker.
 
 # Boss
