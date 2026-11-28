@@ -18,6 +18,10 @@ For the movement, I will be using Java in Greenfoot to allow Mario to move left 
 
 I started by creating a separate project in Greenfoot to develop and test Mario's movement before integrating it into the main group project. I created a Mario class which inherits from the Actor class. I then implemented basic horizontal movement using the left and right arrow keys. I used a variable to control Mario's movement speed so that it can easily be adjusted during testing. I also decided to keep the movement logic in a separate method to make the code easier to read and maintain as I add more features.
 
+After getting Mario's left and right movement working, I moved on to implementing jumping and gravity. I created separate methods for jumping and gravity to keep the code organised. I used variables for vertical velocity, gravity and jump strength so that I could easily adjust how Mario jumps.
+
+I also introduced a boolean variable called onGround to prevent Mario from jumping again while he is already in the air. For initial testing, I used the bottom of the Greenfoot world as a temporary ground level. This allowed me to test Mario's jumping and gravity before implementing collision detection with the platforms designed by my teammate.
+
 # Tile set
 Using Piskel I was able to make a few different designs for the ground and platforms. I also made some designs for pipes and bricks, although I might not use all of them. There was a bit of trial and error when it came to making the pipes. I had to make sure it fit in the 32x32 scale that we chose as a group. I struggled with giving the illusion that the top of the pipe was thicker and open. A solution I found was to make the sides of the pipe in the pipe_base.png slimmer so that in the pipe_top.png I could use the new extra space to make the pipe thicker.
 
