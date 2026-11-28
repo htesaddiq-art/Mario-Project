@@ -11,8 +11,10 @@ We have decided who is doing what. Prahalath is doing movement, Rishad is doing 
 
 To make the game as best as possible we have decided to focus on the boss battle. That allows us to fully implement the requirements to the best of out ability.
 
-# Movement
-Mario's movement
+# Mario and Movement
+For my part of the project, I will be focusing on Mario's design, movement and collision detection. I plan to use Piskel to create Mario's character design using the 32x32 scale that we agreed on as a group. I also want to create different sprites for when Mario is standing still, walking and jumping to make his movement look more natural.
+
+For the movement, I will be using Java in Greenfoot to allow Mario to move left and right, as well as jump. I will also need to implement gravity and collision detection so that Mario can jump onto platforms without falling through them. Another part of my task is to make Mario take damage when he comes into contact with Bowser. However, this will be implemented and tested once my teammate has completed Bowser's design and behaviour.
 
 # Tile set
 Using Piskel I was able to make a few different designs for the ground and platforms. I also made some designs for pipes and bricks, although I might not use all of them. There was a bit of trial and error when it came to making the pipes. I had to make sure it fit in the 32x32 scale that we chose as a group. I struggled with giving the illusion that the top of the pipe was thicker and open. A solution I found was to make the sides of the pipe in the pipe_base.png slimmer so that in the pipe_top.png I could use the new extra space to make the pipe thicker.
