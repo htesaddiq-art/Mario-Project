@@ -16,6 +16,8 @@ For my part of the project, I will be focusing on Mario's design, movement and c
 
 For the movement, I will be using Java in Greenfoot to allow Mario to move left and right, as well as jump. I will also need to implement gravity and collision detection so that Mario can jump onto platforms without falling through them. Another part of my task is to make Mario take damage when he comes into contact with Bowser. However, this will be implemented and tested once my teammate has completed Bowser's design and behaviour.
 
+I started by creating a separate project in Greenfoot to develop and test Mario's movement before integrating it into the main group project. I created a Mario class which inherits from the Actor class. I then implemented basic horizontal movement using the left and right arrow keys. I used a variable to control Mario's movement speed so that it can easily be adjusted during testing. I also decided to keep the movement logic in a separate method to make the code easier to read and maintain as I add more features.
+
 # Tile set
 Using Piskel I was able to make a few different designs for the ground and platforms. I also made some designs for pipes and bricks, although I might not use all of them. There was a bit of trial and error when it came to making the pipes. I had to make sure it fit in the 32x32 scale that we chose as a group. I struggled with giving the illusion that the top of the pipe was thicker and open. A solution I found was to make the sides of the pipe in the pipe_base.png slimmer so that in the pipe_top.png I could use the new extra space to make the pipe thicker.
 
